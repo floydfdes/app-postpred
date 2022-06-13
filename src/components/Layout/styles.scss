@@ -1,0 +1,96 @@
+.nav-link {
+  color: var(--secondary-color) !important;
+  font-family: ralewayRegular !important;
+}
+.navbar-brand {
+  a {
+    color: var(--fourth-color) !important;
+    text-decoration: none;
+    display: flex;
+    padding: 0px;
+    font-size: 24px;
+    font-weight: bold;
+    align-items: flex-end;
+  }
+  a:hover {
+    color: var(--secondary-color) !important;
+  }
+}
+
+.dropdown-menu {
+  background-color: var(--primary-color) !important;
+  .dropdown-item {
+    color: var(--secondary-color) !important;
+  }
+  .dropdown-item:hover {
+    background-color: var(--fourth-color) !important;
+    color: var(--primary-color) !important;
+  }
+}
+// .nav-link:hover {
+//   background-color: var(--fourth-color);
+// }
+.navbar-light .navbar-toggler {
+  color: transparent !important;
+  border: none !important;
+  &-icon {
+    width: 20px;
+    background-image: url(../../assets/images/menu.svg) !important;
+  }
+}
+@media only screen and (min-width: 769px) {
+  .nav-link {
+    padding: 8px 12px !important;
+    &:hover {
+      background-color: var(--secondary-color) !important;
+      color: var(--primary-color) !important;
+      border-radius: 500px;
+    }
+    &-login {
+      margin-left: auto;
+      border: 2px solid var(--secondary-color);
+      border-radius: 20px;
+    }
+  }
+}
+
+.logo-image {
+  width: 32px;
+  height: 32px;
+  margin-right: 5px;
+}
+
+.profile-avatar {
+  width: 30px !important;
+  height: 30px !important;
+}
+@media screen and (min-width: 769px) {
+  .profile-login-div {
+    display: flex !important;
+    align-items: center !important;
+  }
+}
+
+#navbar-toggle-button {
+  display: flex;
+  align-items: center;
+  font-weight: 900 !important;
+}
+
+.MuiAvatar-root {
+  background-color: var(--secondary-color) !important;
+  color: var(--primary-color) !important;
+}
+@media screen and (max-width: 900px) {
+  .navbar-fixed-top-mobile {
+    position: fixed;
+    top: 0%;
+    background-color: var(--fifth-color);
+    z-index: 999;
+    max-width: 100% !important;
+  }
+}
+
+#basic-navbar-nav {
+  font-weight: 900;
+}

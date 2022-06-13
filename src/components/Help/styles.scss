@@ -1,0 +1,49 @@
+#helpAccordian {
+  position: relative !important;
+  height: auto !important;
+  width: 75% !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  text-align: left;
+  border: 2px solid var(--primary-color) !important;
+}
+@media screen and (max-width: 767px) {
+  #helpAccordian {
+    width: 95% !important;
+  }
+}
+.accordion-button {
+  color: var(--primary-color) !important;
+  background-color: var(--secondary-color) !important;
+  padding: 1% 2% !important;
+  outline: none !important;
+  box-shadow: none !important;
+
+  &:not(.collapsed) {
+    color: var(--primary-color) !important;
+    background-color: var(--third-color) !important;
+    box-shadow: none !important;
+  }
+  &:focus {
+    border-color: var(--primary-color) !important ;
+    outline: none !important;
+  }
+  &::after {
+    background-image: url(../../assets/images/downArrow.svg) !important;
+  }
+}
+.accordion-body {
+  color: var(--secondary-color);
+
+  padding: 1% 2%;
+}
+.accordion-button .accordion-item {
+  border: 1px solid var(--primary-color);
+}
+
+@media screen and (max-width: 768px) {
+  .accordion-body {
+    font-size: 12px;
+  }
+}

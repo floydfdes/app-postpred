@@ -1,0 +1,145 @@
+.App {
+  text-align: center;
+}
+.heading-button-color {
+  background: var(--secondary-color) !important;
+  border: var(--secondary-color) !important;
+  color: var(--primary-color) !important;
+  outline: none;
+  box-shadow: none !important;
+  font-weight: bold !important;
+  width: 100%;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  padding: 10px !important;
+}
+.Loading-spinner {
+  position: fixed;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  z-index: 999;
+  &-image {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.page-height {
+  height: 100vh;
+}
+h1,
+h2,
+h3 {
+  color: var(--secondary-color) !important;
+  margin: 0px !important;
+}
+
+.main-page {
+  height: 100vh;
+
+  &-image {
+    width: 80px !important;
+    height: 80px !important;
+  }
+  &-heading {
+    color: var(--secondary-color);
+  }
+  &-sub-heading {
+    color: var(--fourth-color);
+  }
+  &-button {
+    background-color: var(--secondary-color) !important;
+    color: var(--primary-color) !important;
+    border-color: var(--secondary-color) !important;
+    outline: none !important;
+    box-shadow: none !important;
+    width: 49% !important;
+    font-size: 20px !important;
+    border-radius: 1rem !important;
+  }
+
+  &-button:hover {
+    background-color: var(--primary-color) !important;
+    border-color: var(--secondary-color) !important;
+    color: var(--secondary-color) !important;
+  }
+  &-card-div {
+    button {
+      font-size: 20px;
+    }
+    .card:hover {
+      background: var(--third-color);
+    }
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .main-page {
+    display: flex !important;
+    align-items: center;
+    padding: 0px 10px;
+    margin-top: -20% !important;
+    &-mobile-center {
+      text-align: center;
+    }
+    &-card-div {
+      .card {
+        border: none !important;
+        margin: 30px 15px !important;
+        height: 200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+  }
+  .mobile-grid {
+    display: grid !important;
+    grid-template-columns: 70% 30% !important;
+  }
+}
+@media screen and (min-width: 767px) {
+  .main-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &-web {
+      flex-basis: content;
+      text-align: center;
+    }
+    &-card-div {
+      height: 100vh;
+      display: flex;
+      justify-content: space-around;
+      padding: 4rem;
+
+      .card {
+        width: 33%;
+        height: 250px;
+        justify-content: space-around;
+        border: none !important;
+        align-items: center;
+      }
+    }
+  }
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.about-page {
+  h5,
+  h4 {
+    color: var(--fourth-color);
+  }
+}
