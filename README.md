@@ -1,5 +1,5 @@
 ## Postpred
-[Link to postpred](https://postpred.netlify.app "Postpred App")
+[Link to postpred](https://apppostpred.netlify.app/ "Postpred App")
 
 ### About
 An application which allows user to create a post of their events, memories and hobbies.
