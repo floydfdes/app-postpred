@@ -14,12 +14,11 @@ function Main() {
           </h1>
 
           <p className="main-page-sub-heading my-0">
-            This app lets yo create your favorite Hobby post and share it to the
-            entire world.
+            Share your events, memories and hobbies with the world.
           </p>
           <p className="main-page-sub-heading">
-            It also has some utilities such as Image classification and heart
-            disease prediction.
+            Try out some classification based on machine learning having high
+            accuracy.
           </p>
           <div className="my-3 main-page-button-div">
             <a href="#explore" className="btn main-page-button">
@@ -37,8 +36,11 @@ function Main() {
           }}
         >
           <img className="main-page-image" src={HobbyImage} alt="img1" />
-          <h3>Hobbies</h3>
-          <p>Post a hobby. Edit, like and share to the world </p>
+          <h3>Posts</h3>
+          <p>
+            Create a post of your events, memories and hobbies. See what others
+            have been upto.
+          </p>
         </div>
         <div
           className="card m-3 p-3 shadow text-center"
@@ -53,8 +55,8 @@ function Main() {
           />
           <h3>Prediction</h3>
           <p>
-            Check the condition of our heart. Find out if you have a heart
-            disease by filling few fields.
+            Check if you have heart disease or not in no time. Get the result by
+            only filling few fields.
           </p>
         </div>
         <div

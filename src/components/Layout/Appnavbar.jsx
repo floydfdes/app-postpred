@@ -105,7 +105,7 @@ function Appnavbar() {
               </Link>
             </NavDropdown>
             <Link onClick={hideNavbar} className="nav-link" to="/hobbies">
-              Hobbies
+              Posts
             </Link>
             <Link onClick={hideNavbar} className="nav-link" to="/about">
               About
