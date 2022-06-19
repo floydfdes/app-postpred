@@ -85,6 +85,7 @@ h3 {
       text-align: center;
     }
     &-card-div {
+      background-color: var(--secondary-color);
       .card {
         border: none !important;
         margin: 30px 15px !important;
