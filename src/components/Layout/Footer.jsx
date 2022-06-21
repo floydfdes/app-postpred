@@ -6,10 +6,7 @@ import EmailIcon from "@mui/icons-material/Email";
 const Footer = () => {
   return (
     <div>
-      <footer
-        className="text-center text-white"
-        style={{ backgroundColor: "#f1f1f1" }}
-      >
+      <footer className="text-center text-white">
         <div className="container">
           <section>
             <a
