@@ -1,7 +1,7 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
-import ClassiicationImage from "../../assets/images/classificationIcon.png";
-import PredictionImage from "../../assets/images/predictionIcon.png";
+import ClassiicationImage from "../../assets/images/classify.svg";
+import PredictionImage from "../../assets/images/predict.svg";
 import HobbyImage from "../../assets/images/hobbyIcon.png";
 import Footer from "../Layout/Footer";
 function Main() {
