@@ -29,7 +29,7 @@ function Main() {
         </div>
       </div>
 
-      <div id="explore" className="main-page-card-div mt-4 py-2">
+      <div id="explore" className="main-page-card-div mt-4">
         <div
           className="card m-3 p-3 shadow text-center"
           onClick={() => {

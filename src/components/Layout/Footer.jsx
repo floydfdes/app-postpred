@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="container">
           <section>
             <a
-              className="btn btn-link btn-floating btn-lg text-dark m-1"
+              className="btn btn-link btn-floating btn-lg text-secondary-color m-1"
               href="https://www.linkedin.com/in/floyd-fernandes-03b771121/"
               role="button"
               target="_blank"
@@ -20,7 +20,7 @@ const Footer = () => {
               <LinkedInIcon />
             </a>
             <a
-              className="btn btn-link btn-floating btn-lg text-dark m-1"
+              className="btn btn-link btn-floating btn-lg text-secondary-color m-1"
               href="floydfernandes20@gmail.com"
               role="button"
               target="_blank"
@@ -30,7 +30,7 @@ const Footer = () => {
               <EmailIcon />
             </a>
             <a
-              className="btn btn-link btn-floating btn-lg text-dark m-1"
+              className="btn btn-link btn-floating btn-lg text-secondary-color m-1"
               href="https://github.com/floydfdes"
               role="button"
               target="_blank"
@@ -41,10 +41,12 @@ const Footer = () => {
             </a>
           </section>
         </div>
-
-        <div className="text-center text-dark p-3">
+        <div className="text-center text-secondary-color">
+          Designed and Developed by Floyd Fernandes
+        </div>
+        <div className="text-center text-secondary-color p-2">
           © 2022 Copyright:
-          <a className="text-dark" href="https://mdbootstrap.com/">
+          <a className="text-secondary-color" href="https://mdbootstrap.com/">
             postpred.netlifyapp.com
           </a>
         </div>

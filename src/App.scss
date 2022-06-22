@@ -111,10 +111,11 @@ h3 {
       text-align: center;
     }
     &-card-div {
-      height: 100vh;
+   
+    
       display: flex;
       justify-content: space-around;
-      padding: 4rem;
+      padding: 5rem 4rem;
       background-color: var(--secondary-color);
 
       .card {
